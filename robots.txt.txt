@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# 禁止抓取表单提交相关，不需要
+Disallow: 
+
+# Sitemap 地址，部署上线后把域名替换成你真实域名
+Sitemap: https://leishi-pet.vercel.app/sitemap.xml

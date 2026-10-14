@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Quotation | Leishi Pet Products Factory</title>
+    <meta name="description" content="Send your inquiry to Leishi factory, get wholesale price for custom pet supplies. Fill the quote form, we reply within 24 hours.">
+    <style>
+        * {margin:0;padding:0;box-sizing:border-box;font-family:Arial, sans-serif;}
+        :root {--dark:#121418;--darker:#0b0d10;--primary:#2563eb;--light:#f3f4f6;--gray:#9ca3af;}
+        body {background:var(--dark);color:#e5e7eb;line-height:1.6;}
+        .container {max-width:1200px;margin:0 auto;padding:0 20px;}
+        header {background:var(--darker);position:sticky;top:0;z-index:99;}
+        .nav-wrap {display:flex;justify-content:space-between;align-items:center;padding:18px 0;}
+        .logo {font-size:24px;font-weight:bold;color:#fff;text-decoration:none;}
+        nav ul {display:flex;gap:28px;list-style:none;}
+        nav a {color:#d1d5db;text-decoration:none;transition:0.2s;}
+        nav a:hover {color:var(--primary);}
+        .btn {display:inline-block;background:var(--primary);color:#fff;padding:11px 22px;border-radius:6px;text-decoration:none;font-weight:500;border:none;cursor:pointer;}
+        .btn:hover {opacity:0.9;}
+        .btn-whatsapp {background:#25d366;margin-left:12px;}
+        .page-header {padding:60px 0;text-align:center;background:#171a20;}
+        .page-header h1 {font-size:36px;color:#fff;margin-bottom:10px;}
+        .page-header p {color:var(--gray);max-width:700px;margin:0 auto;}
+        .section {padding:70px 0;}
+        .form-wrap {max-width:720px;margin:0 auto;background:#1f232b;padding:32px;border-radius:12px;}
+        .form-group {margin-bottom:20px;}
+        label {display:block;margin-bottom:8px;color:#e5e7eb;}
+        input, select, textarea {width:100%;padding:12px;border-radius:6px;border:1px solid #374151;background:#272c36;color:#fff;font-size:16px;}
+        textarea {min-height:120px;resize:vertical;}
+        .submit-btn {width:100%;padding:14px;font-size:17px;}
+        footer {background:var(--darker);padding:40px 0;margin-top:30px;}
+        .footer-wrap {display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:30px;}
+        .mobile-menu-btn {display:none;background:none;border:none;color:#fff;font-size:28px;}
+        @media(max-width:768px){
+            nav ul {display:none;}
+            .mobile-menu-btn {display:block;}
+            .btn-wrap {display:flex;flex-direction:column;gap:12px;align-items:center;}
+            .btn-whatsapp {margin-left:0;}
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="container nav-wrap">
+        <a href="index.html" class="logo">Leishi</a>
+        <button class="mobile-menu-btn">☰</button>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="quote.html">Get Quote</a></li>
+            </ul>
+        </nav>
+        <div class="btn-wrap">
+            <a href="quote.html" class="btn">Get Quote</a>
+            <a target="_blank" href="https://wa.me/8613713637202?text=Hello%20Leishi,%20I%20just%20viewed%20your%20premium%20collection%20and%20would%20like%20to%20discuss%20a%20custom%20project.%20Can%20we%20chat?" class="btn btn-whatsapp">WhatsApp</a>
+        </div>
+    </div>
+</header>
+
+<section class="page-header">
+    <div class="container">
+        <h1>Request Quotation</h1>
+        <p>Fill in the form, our sales team will contact you within 24 hours.</p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="form-wrap">
+        <!-- Replace action="" with your Formspree form endpoint after register -->
+        <form action="" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <label>Full Name *</label>
+                <input type="text" name="name" required>
+            </div>
+            <div class="form-group">
+                <label>Company Name *</label>
+                <input type="text" name="company" required>
+            </div>
+            <div class="form-group">
+                <label>Email Address *</label>
+                <input type="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label>WhatsApp / Phone Number *</label>
+                <input type="text" name="whatsapp" required>
+            </div>
+            <div class="form-group">
+                <label>Product Type *</label>
+                <input type="text" name="product_type" placeholder="e.g. pet bed, pet toy" required>
+            </div>
+            <div class="form-group">
+                <label>Order Quantity *</label>
+                <input type="text" name="qty" placeholder="e.g. 500pcs" required>
+            </div>
+            <div class="form-group">
+                <label>Requirement / Additional Message</label>
+                <textarea name="message" placeholder="Tell us custom logo, material, packaging or other requirements"></textarea>
+            </div>
+            <div class="form-group">
+                <label>Upload reference picture</label>
+                <input type="file" name="reference_img">
+            </div>
+            <button type="submit" class="btn submit-btn">Submit Inquiry</button>
+        </form>
+    </div>
+</section>
+
+<section class="section" style="background:#0f1216;text-align:center;">
+    <div class="container">
+        <h2 style="color:#fff;margin-bottom:14px;">Or Chat Directly via WhatsApp</h2>
+        <p style="color:var(--gray);margin-bottom:20px;">Quickly discuss your project with our sales person.</p>
+        <a target="_blank" href="https://wa.me/8613713637202?text=Hello%20Leishi,%20I%20just%20viewed%20your%20premium%20collection%20and%20would%20like%20to%20discuss%20a%20custom%20project.%20Can%20we%20chat?" class="btn btn-whatsapp">Open WhatsApp Chat</a>
+    </div>
+</section>
+
+<footer>
+    <div class="container footer-wrap">
+        <div>
+            <h3 style="margin-bottom:14px;color:#fff;">Leishi Pet Products</h3>
+            <p style="color:var(--gray);">Factory direct supplier of custom pet supplies.</p>
+        </div>
+        <div>
+            <h4 style="color:#fff;margin-bottom:12px;">Quick Links</h4>
+            <ul style="list-style:none;">
+                <li><a href="index.html" style="color:var(--gray);text-decoration:none;">Home</a></li>
+                <li><a href="products.html" style="color:var(--gray);text-decoration:none;">Products</a></li>
+                <li><a href="about.html" style="color:var(--gray);text-decoration:none;">About Us</a></li>
+                <li><a href="quote.html" style="color:var(--gray);text-decoration:none;">Quote</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4 style="color:#fff;margin-bottom:12px;">Contact</h4>
+            <p style="color:var(--gray);">WhatsApp: +86 13713637202</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
