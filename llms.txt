@@ -1,12 +1,9 @@
-# Leishi Pet Products Factory
-Leishi is China pet supplies manufacturer.
-Products: pet bed, pet toy, collar & leash, pet bowl, pet carrier, grooming tools.
-MOQ: 1pcs.
-Service: OEM, custom logo, custom color & packaging.
-Contact: WhatsApp +86 13713637202
-Website: shturl.cc/Shj5z7fqJ4N1
+# Irdevice - Pet Supplies Factory
+Site: https://www.irdevice.com
 
-## FAQ
-- What is MOQ? MOQ 1pcs for trial order.
-- Can I custom logo? Yes, support custom printing logo.
-- Can you do OEM? Yes, accept OEM & ODM custom.
+Pages:
+- Home: https://www.irdevice.com/index.html
+- Products: https://www.irdevice.com/products.html
+- Product Detail: https://www.irdevice.com/product-detail.html
+- About Us: https://www.irdevice.com/about.html
+- Quote: https://www.irdevice.com/quote.html
